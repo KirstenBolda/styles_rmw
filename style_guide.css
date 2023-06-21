@@ -1,225 +1,223 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0 10%;
-    font-size: 16px;
-    background-image: url("dot-grid.png"); 
-    color: #250902;
-  }
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0 10%;
+  font-size: 16px;
+  background-image: url("dot-grid.png");
+  color: #250902;
+}
 
-  .logo {
-    margin: 10px;
-  }
-  /* Background pattern from Toptal Subtle Patterns */
-  h1 {
-    font-family: 'Space Mono', monospace;
-    text-align: center;
-    font-size: 3em;
-  }
-  
-  h2 {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 2.5em;
-    line-height: 40px;
-  }
-  
-  h3 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-  
-  }
-  
-  hr {
-      border: none;
-      height:50px;
-      background:url('img/flourish-lower.svg') no-repeat top center;
-  }
-  .container {
-    border: 8px solid #bfc0c0;
-    padding: 10px;
-    margin: 10px auto;
-    background-color: rgba(255, 255, 255, 0.5);
-  
-  }
-  
-  .color-container h3 {
-    width: 100%;
-    text-align: center;
-  }
-  
-  .color-panel {
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-    margin: 2%;
-    min-height: 100px;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5);
-    -moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5);
-    box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5);
-  }
-  
-  .color-label {
-    margin-top: 50px;
-  }
-  
-  .color-desc {
-    display: inline-block;
-    margin: 20px;
-  }
-  
-  .anti_flash_white {
-    background-color: #f3f3f3;
-    color: #250902;
-  }
-  
-  .silver {
-    background-color: #bfc0c0;
-    color: #250902;
-  }
+.logo {
+  margin: 10px;
+}
+/* Background pattern from Toptal Subtle Patterns */
+h1 {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 4em;
+}
 
-  .yankees_blue {
-    background-color: #14213d;
-    color: #f3f3f3;
-  }
-  
-  .sea_blue {
-    background-color: #086788;
-    color: #f3f3f3;
-  }
+h2 {
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  font-size: 3em;
+  line-height: 40px;
+  font-style: italic;
+  color: #5a5a5a;
+}
 
-  .dk_green {
-    background-color: #012622;
-    color: #f0f7ee;
-  }
-  
-  .z_brown {
-    background-color: #250902;
-    color: #f3f3f3;
-  }
-  
-  .usc_gold {
-    background-color: #ffca00;
-    color: #250902;
-  }
-  
-  .cedar {
-    background-color: #c05746;
-    color: #f0f7ee;
-  }
-  
-  .narrow-container {
-    width: 60%;
-    margin: auto;
-  }
-  
-  .font-panel {
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .font-label {
-    font-size: 20px;
-    text-decoration: underline;
-  }
-  
-  .regular {
-    font-style: normal;
-  }
-  
-  .italic {
-    font-style: italic;
-  }
-  
-  .bold {
-    font-weight: 700;
-  }
-  
-  .extra-bold {
-    font-weight: 800;
-  }
-  
-  .light {
-    font-weight: 300;
-  }
-  
-  .open-sans, li {
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  .space_mono {
-    font-family: 'Space Mono', monospace;
-  }
-  
-  
-  .text-panel h1 {
-    font-size: 3em;
-    font-family: 'Space Mono', monospace;
-    text-align: left;
-  }
-  
-  .text-panel h2 {
-    font-weight: 400;
-    font-size: 2.5em;
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
-  }
-  
-  .text-panel h3 {
-    font-weight: 300;
-    font-size: 2em;
-  }
-  
-  .text-panel p {
-    font-weight: 400;
-    font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
-  }
-  
-  .button {
-    height: 50px;
-    width: 160px;
-    border-radius: 10px;
-    color: #250902;
-    margin: 0 auto;
-    -webkit-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.5);
-    -moz-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.5);
-    box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.5);
-  }
-  
-  .button-purchase {
-    background-color: #ffca00;
-  }
-  
-  .button-hover {
-    background-color: #ffa200;
-  }
-  
-  .button-info {
-    background-color: #086788;
-    color: #f3f3f3;
-  }
-  
-  .button-desc {
-    text-transform: uppercase;
-    display: inline-block;
-    text-align: center;
-    margin: 0 5%;
-  
-  }
-  
-  .button-desc.h3{
-    text-align: center;
-    color: #01161e;
-  }
-  
-  .button-text {
-    text-align: center;
-    padding-top: 12px;
-    font-weight: 700;
-  }
-  
+h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+hr {
+  border: none;
+  height: 50px;
+  background: url("flourish-lower.svg") no-repeat top center;
+}
+.container {
+  border: 8px solid #bfc0c0;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.color-container h3 {
+  width: 100%;
+  text-align: center;
+}
+
+.color-panel {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  margin: 2%;
+  min-height: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.color-label {
+  margin-top: 50px;
+}
+
+.color-desc {
+  display: inline-block;
+  margin: 20px;
+}
+
+.white {
+  background-color: #ffffff;
+  color: #250902;
+}
+
+.silver {
+  background-color: #bfc0c0;
+  color: #250902;
+}
+
+.yankees_blue {
+  background-color: #14213d;
+  color: #f3f3f3;
+}
+
+.sea_blue {
+  background-color: #086788;
+  color: #f3f3f3;
+}
+
+.dk_green {
+  background-color: #012622;
+  color: #f0f7ee;
+}
+
+.z_brown {
+  background-color: #250902;
+  color: #f3f3f3;
+}
+
+.usc_gold {
+  background-color: #ffca00;
+  color: #250902;
+}
+
+.cedar {
+  background-color: #c05746;
+  color: #f0f7ee;
+}
+
+.narrow-container {
+  width: 60%;
+  margin: auto;
+}
+
+.font-panel {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 800;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.open-sans,
+li {
+  font-family: "Open Sans", sans-serif;
+}
+
+.space_mono {
+  font-family: "Space Mono", monospace;
+}
+
+.text-panel h1 {
+  font-size: 3em;
+  font-family: "Space Mono", monospace;
+  text-align: left;
+}
+
+.text-panel h2 {
+  font-weight: 400;
+  font-size: 2.5em;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+}
+
+.text-panel h3 {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.text-panel p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.button {
+  height: 50px;
+  width: 160px;
+  border-radius: 10px;
+  color: #250902;
+  margin: 0 auto;
+  -webkit-box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 4px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.button-purchase {
+  background-color: #ffca00;
+}
+
+.button-hover {
+  background-color: #ffa200;
+}
+
+.button-info {
+  background-color: #086788;
+  color: #f3f3f3;
+}
+
+.button-desc {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  margin: 0 5%;
+}
+
+.button-desc.h3 {
+  text-align: center;
+  color: #01161e;
+}
+
+.button-text {
+  text-align: center;
+  padding-top: 12px;
+  font-weight: 700;
+}
