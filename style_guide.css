@@ -32,6 +32,12 @@ h3 {
   font-weight: 300;
 }
 
+hr {
+  border: none;
+  height: 50px;
+  background: url("horiz_dec.svg") no-repeat top center;
+}
+
 .container {
   border: 1px solid #5a5a5a;
   padding: 10px;
