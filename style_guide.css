@@ -129,6 +129,10 @@ hr {
   text-decoration: underline;
 }
 
+.light {
+  font-weight: 300;
+}
+
 .regular {
   font-style: normal;
 }
@@ -149,12 +153,12 @@ hr {
   font-weight: 300;
 }
 
-.open-sans,
+.nunito-sans,
 li {
   font-family: "Nunito Sans", sans-serif;
 }
 
-.space_mono {
+.noto_serif_display {
   font-family: "Noto Serif Display", serif;
 }
 
