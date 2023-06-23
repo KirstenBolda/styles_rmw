@@ -65,7 +65,7 @@ hr {
 }
 
 .color-label {
-  margin-top: 50px;
+  margin-top: 45px;
 }
 
 .color-desc {
@@ -73,39 +73,100 @@ hr {
   margin: 20px;
 }
 
+.color-hex {
+  font-size: 0.7em;
+}
+
 .white {
   background-color: #ffffff;
-  color: #250902;
+  color: #000;
 }
 
-.silver {
-  background-color: #bfc0c0;
-  color: #250902;
+.gray {
+  background-color: #707070;
+  color: #fff;
 }
 
-.yankees_blue {
-  background-color: #14213d;
-  color: #f3f3f3;
+.sunshine_yellow {
+  background: #f09819; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #edde5d,
+    #f09819
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #edde5d,
+    #f09819
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #000000;
 }
 
-.sea_blue {
-  background-color: #086788;
-  color: #f3f3f3;
+.sunkist {
+  background: #f2994a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f2c94c,
+    #f2994a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f2c94c,
+    #f2994a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #000;
 }
 
-.dk_green {
-  background-color: #012622;
+.moonlit_asteroid {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #f0f7ee;
 }
 
-.z_brown {
-  background-color: #250902;
+.deep_space {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: #f3f3f3;
 }
 
-.usc_gold {
-  background-color: #ffca00;
-  color: #250902;
+.forest_green {
+  background: #52c234; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #123d34,
+    #63c435
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #123d34,
+    #63c435
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
 }
 
 .cedar {
@@ -198,15 +259,48 @@ li {
 }
 
 .button-purchase {
-  background-color: #ffca00;
+  background: #f09819; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #edde5d,
+    #f09819
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #edde5d,
+    #f09819
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .button-hover {
-  background-color: #ffa200;
+  background: #52c234; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #123d34,
+    #63c435
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #123d34,
+    #63c435
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
 }
 
 .button-info {
-  background-color: #086788;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #f3f3f3;
 }
 
@@ -224,6 +318,6 @@ li {
 
 .button-text {
   text-align: center;
-  padding-top: 12px;
+  padding-top: 9%;
   font-weight: 700;
 }
